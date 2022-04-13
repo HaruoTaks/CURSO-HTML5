@@ -1,8 +1,19 @@
+body{
+    background: #ccc;
+}
+
 #title, .subtitle, .post_title {
-    color: blue;
+    color: blue; /*Configura a cor do texto*/
 }
 
 .post_title{
-    font-size: 16px;
-    font-style: italic;
+    font-size: 16px; /*Configura o tamanho do texto*/
+    font-style: italic; /*Configura o estilo do texto*/
+}
+
+.post{
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
 }
